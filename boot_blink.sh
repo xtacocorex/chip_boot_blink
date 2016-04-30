@@ -20,9 +20,9 @@ blink() {
 COUNTER=0
 while [  $COUNTER -lt 10 ]; do
     blink off
-    sleep 0.5
+    sleep 0.25
     blink on
-    sleep 0.5 
+    sleep 0.25 
     let COUNTER=COUNTER+1
 done
 
