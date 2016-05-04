@@ -3,7 +3,7 @@ Description=CHIP Bootup Blink Notification
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/boot_blink.sh
+ExecStart=/usr/local/bin/boot_blink.sh
 
 [Install]
 WantedBy=getty.target
